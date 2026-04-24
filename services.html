@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Services — V Nails Salon, Boca Raton</title>
+  <meta name="description" content="Full service menu for V Nails Salon in Boca Raton, FL — manicures, pedicures, acrylics, Dazzle Dry, waxing, and more." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <nav class="nav">
+    <a href="index.html" class="nav__logo">V <span>Nails</span></a>
+    <ul class="nav__links" id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="services.html" class="active">Services</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <button class="nav__toggle" id="navToggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- PAGE HEADER -->
+  <header class="services-header">
+    <div class="container">
+      <p class="section-label" style="justify-content:center; display:flex;">Our Menu</p>
+      <h1 class="section-title" style="text-align:center; font-size: clamp(2rem, 4vw, 3rem);">Services &amp; Pricing</h1>
+      <div class="divider" style="margin: 1.2rem auto 1.5rem;"></div>
+      <p class="section-subtitle" style="margin: 0 auto; text-align:center;">
+        All services performed with premium products by our experienced technicians.
+        * Nail art, designs, and extra length may incur additional charges.
+      </p>
+    </div>
+  </header>
+
+  <!-- DAZZLE DRY HIGHLIGHT -->
+  <section class="section section--off-white" style="padding: 50px 0;">
+    <div class="container">
+      <div style="background: linear-gradient(135deg, #faf9f7, #f5f0eb); border: 1px solid var(--gold-light); border-radius: 6px; padding: 2.5rem 2rem; display: flex; align-items: center; gap: 2rem; flex-wrap: wrap;">
+        <div style="font-size: 3rem;">✨</div>
+        <div style="flex: 1; min-width: 220px;">
+          <span class="dazzle__badge" style="display:inline-flex; margin-bottom: 0.6rem;">Featured at V Nails</span>
+          <h2 style="font-family: var(--font-serif); font-size: 1.4rem; font-weight: 400; margin-bottom: 0.4rem;">Dazzle Dry — Healthier. Faster. Beautiful.</h2>
+          <p style="font-size: 0.9rem; color: var(--mid-gray);">
+            Our Dazzle Dry services use a 5-free, vegan formula that dries in minutes with no UV lamp needed.
+            Long-lasting color that's gentle on your nails and easy to remove.
+          </p>
+        </div>
+        <a href="#dazzle-dry" class="btn btn--gold" style="white-space:nowrap;">See Dazzle Dry Menu</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES MENU -->
+  <section class="section">
+    <div class="container">
+
+      <!-- NAILS -->
+      <div class="services-category">
+        <p class="section-label">Hands &amp; Feet</p>
+        <h2 class="services-category__title">Nails</h2>
+        <div class="divider"></div>
+        <table class="services-table">
+          <thead>
+            <tr>
+              <th>Service</th>
+              <th>Price</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>Classic Manicure</td><td>$20</td></tr>
+            <tr><td>Spa Pedicure</td><td>$30</td></tr>
+            <tr><td>Detox Pedicure</td><td>$48</td></tr>
+            <tr><td>Gel Manicure</td><td>$35</td></tr>
+            <tr><td>Polish Change — Gel Hands</td><td>$27</td></tr>
+            <tr><td>Gel Pedicure</td><td>$45</td></tr>
+            <tr><td>Polish Change — Gel Toes</td><td>$32</td></tr>
+            <tr id="dazzle-dry"><td style="font-weight:600; color:var(--gold-dark);">Dazzle Dry Manicure ✦</td><td>$35</td></tr>
+            <tr><td style="font-weight:600; color:var(--gold-dark);">Dazzle Dry Pedicure ✦</td><td>$40</td></tr>
+            <tr><td>Next-Gen Dipping Powder</td><td>$47*</td></tr>
+            <tr><td>Dipping Pink &amp; White</td><td>$57</td></tr>
+            <tr><td>Full Set Acrylic</td><td>$40*</td></tr>
+            <tr><td>Fill</td><td>$33*</td></tr>
+            <tr><td>Full Set Gel Powder</td><td>$50</td></tr>
+            <tr><td>Fill (Gel Powder)</td><td>$40</td></tr>
+            <tr><td>Full Set Pink &amp; White</td><td>$62</td></tr>
+            <tr><td>Fill Pink &amp; White</td><td>$52</td></tr>
+            <tr><td>Fill Pink</td><td>$37</td></tr>
+            <tr><td>Zen Builder Gel — Full Set</td><td>$55</td></tr>
+            <tr><td>Zen Fill — Same Color</td><td>$48</td></tr>
+            <tr><td>Tap Hybrid Gel — Full Set</td><td>$60</td></tr>
+            <tr><td>Tap Fill — Same Color</td><td>$53</td></tr>
+            <tr><td>Luxury Pearl Collagen Spa Pedicure</td><td>$63</td></tr>
+            <tr><td>Volcano Spa Pedicure</td><td>$62</td></tr>
+            <tr><td>French</td><td>$8</td></tr>
+            <tr><td>Nail Art</td><td>$3*</td></tr>
+            <tr><td>Polish Change — Hands</td><td>$14</td></tr>
+            <tr><td>Polish Change — Toes</td><td>$20</td></tr>
+            <tr><td>Remove Acrylic</td><td>$15</td></tr>
+            <tr><td>Nail Repair</td><td>$5*</td></tr>
+            <tr><td>Shiny Buff</td><td>$5</td></tr>
+            <tr><td>Shape or Length</td><td>$5*</td></tr>
+          </tbody>
+        </table>
+        <p class="services-note">* Nail art, designs, and extra length may incur additional charges.</p>
+      </div>
+
+      <!-- CHILDREN -->
+      <div class="services-category">
+        <p class="section-label">Little Ones</p>
+        <h2 class="services-category__title">Children Under 12</h2>
+        <div class="divider"></div>
+        <table class="services-table">
+          <thead>
+            <tr>
+              <th>Service</th>
+              <th>Price</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>Manicure</td><td>$13</td></tr>
+            <tr><td>Pedicure</td><td>$25</td></tr>
+            <tr><td>Polish Change — Hands</td><td>$8</td></tr>
+            <tr><td>Polish Change — Toes</td><td>$15</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- WAX -->
+      <div class="services-category">
+        <p class="section-label">Smooth Skin</p>
+        <h2 class="services-category__title">Waxing</h2>
+        <div class="divider"></div>
+
+        <p style="font-family: var(--font-serif); font-size: 1.1rem; color: var(--charcoal); margin-bottom: 0.75rem; margin-top: 0.5rem;">Face</p>
+        <table class="services-table" style="margin-bottom: 1.5rem;">
+          <tbody>
+            <tr><td>Eyebrows</td><td>$13</td></tr>
+            <tr><td>Lip</td><td>$9</td></tr>
+            <tr><td>Cheeks</td><td>$10</td></tr>
+            <tr><td>Chin / Neck</td><td>$10</td></tr>
+            <tr><td>Ears</td><td>$15</td></tr>
+            <tr><td>Forehead / Hairline</td><td>$15</td></tr>
+            <tr><td>Full Face</td><td>$40*</td></tr>
+          </tbody>
+        </table>
+
+        <p style="font-family: var(--font-serif); font-size: 1.1rem; color: var(--charcoal); margin-bottom: 0.75rem;">Arms</p>
+        <table class="services-table" style="margin-bottom: 1.5rem;">
+          <tbody>
+            <tr><td>Hands &amp; Fingers</td><td>$10</td></tr>
+            <tr><td>½ Arms</td><td>$25*</td></tr>
+            <tr><td>Full Arm</td><td>$35*</td></tr>
+          </tbody>
+        </table>
+
+        <p style="font-family: var(--font-serif); font-size: 1.1rem; color: var(--charcoal); margin-bottom: 0.75rem;">Body</p>
+        <table class="services-table" style="margin-bottom: 1.5rem;">
+          <tbody>
+            <tr><td>Neckline</td><td>$15</td></tr>
+            <tr><td>Underarms</td><td>$25</td></tr>
+            <tr><td>Man's Chest</td><td>$40</td></tr>
+            <tr><td>Shoulders</td><td>$20*</td></tr>
+            <tr><td>Back</td><td>$40*</td></tr>
+            <tr><td>Stomach</td><td>$30</td></tr>
+          </tbody>
+        </table>
+
+        <p style="font-family: var(--font-serif); font-size: 1.1rem; color: var(--charcoal); margin-bottom: 0.75rem;">Legs</p>
+        <table class="services-table">
+          <tbody>
+            <tr><td>Bikini Area</td><td>$25*</td></tr>
+            <tr><td>Feet / Toes</td><td>$12</td></tr>
+            <tr><td>Lower Leg</td><td>$30</td></tr>
+            <tr><td>Upper Leg</td><td>$35*</td></tr>
+            <tr><td>Full Leg</td><td>$50*</td></tr>
+          </tbody>
+        </table>
+        <p class="services-note">* Price may vary based on area size.</p>
+      </div>
+
+      <!-- FACIAL -->
+      <div class="services-category">
+        <p class="section-label">Skin Care</p>
+        <h2 class="services-category__title">Facial</h2>
+        <div class="divider"></div>
+        <table class="services-table">
+          <thead>
+            <tr>
+              <th>Service</th>
+              <th>Price</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>Deep Cleaning Facial</td><td>$85</td></tr>
+            <tr><td>Eyebrow Tinting</td><td>$15</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section section--cream" style="padding: 60px 0; text-align: center;">
+    <div class="container">
+      <p class="section-label" style="justify-content:center; display:flex;">Ready?</p>
+      <h2 class="section-title" style="text-align:center;">Come Visit Us Today</h2>
+      <div class="divider" style="margin: 1rem auto 1.5rem;"></div>
+      <p style="color: var(--mid-gray); margin-bottom: 2rem;">
+        Walk-ins are always welcome. Find us at 21655 FL-7, Boca Raton, FL 33428.
+      </p>
+      <a href="contact.html" class="btn btn--gold">Hours &amp; Directions</a>
+    </div>
+  </section>
+
+  <!-- MOBILE CALL BAR -->
+  <div class="mobile-call-bar">
+    <a href="tel:+15614770301">
+      <span class="mobile-call-bar__icon">📞</span>
+      Call Us — (561) 477-0301
+    </a>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div>
+          <div class="footer__logo">V <span>Nails</span></div>
+          <p class="footer__about">
+            Your neighborhood nail salon located in West Boca Square, Boca Raton — offering manicures,
+            pedicures, acrylics, and the exclusive Dazzle Dry system.
+          </p>
+        </div>
+        <div>
+          <p class="footer__heading">Navigate</p>
+          <ul class="footer__links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <p class="footer__heading">Visit Us</p>
+          <ul class="footer__links">
+            <li><a href="https://maps.google.com/?q=21655+FL-7+Boca+Raton+FL+33428" target="_blank" rel="noopener">21655 FL-7<br>Boca Raton, FL 33428</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>&copy; 2025 V Nails Salon. All rights reserved.</span>
+        <span>Boca Raton, FL · West Boca Square</span>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const toggle = document.getElementById('navToggle');
+    const links = document.getElementById('navLinks');
+    toggle.addEventListener('click', () => links.classList.toggle('open'));
+    links.querySelectorAll('a').forEach(a => a.addEventListener('click', () => links.classList.remove('open')));
+    document.addEventListener('click', e => { if (!e.target.closest('.nav')) links.classList.remove('open'); });
+  </script>
+</body>
+</html>
